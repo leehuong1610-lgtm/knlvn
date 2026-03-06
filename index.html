@@ -293,47 +293,6 @@
         }
         .btn-login:hover::after { left: 150%; }
 
-        .divider {
-            display: flex;
-            align-items: center;
-            margin: 24px 0;
-            color: var(--text-muted);
-            font-size: 12px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        .divider::before, .divider::after {
-            content: "";
-            flex: 1;
-            height: 1px;
-            background: #E2E8F0;
-        }
-        .divider span { padding: 0 15px; }
-
-        .btn-google {
-            width: 100%;
-            padding: 14px;
-            border: 2px solid #E2E8F0;
-            border-radius: 40px;
-            background: var(--bg-white);
-            color: var(--primary-dark);
-            font-size: 16px;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        .btn-google:hover {
-            background: #F8FAFC;
-            border-color: var(--primary-blue);
-            transform: translateY(-2px);
-        }
-        .btn-google img { width: 22px; height: 22px; }
-
         .login_footer {
             margin-top: 32px;
             font-size: 15px;
@@ -452,14 +411,6 @@
 
             <button type="submit" class="btn-login">Tiến vào đại dương</button>
 
-            <div class="divider">
-                <span>HOẶC</span>
-            </div>
-
-            <button type="button" class="btn-google">
-                <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google">
-                Tiếp tục với Google
-            </button>
         </form>
 
         <div class="login_footer">
